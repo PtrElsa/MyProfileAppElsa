@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Profile App</string>
+    <string name="txt_">Nama : Putri Elsa Widiastuti\n TTL : Rembang, 25 September 2002\n Alamat : Ds. Tlogotunggal Dk. Tempel Kec. Kaliori Kab.Rembang</string>
+    <string name="tft_">WELCOME TO MY PROFILE</string>
+    <string name="tst_">LET\'S SEE MY PROFILE</string>
+    <string name="tpt_"><![CDATA[----->]]></string>
+    <string name="tat_">MY PROFILE</string>
+    <string name="tyt_">Personal Information</string>
+    <string name="tmt_">MOTTO</string>
+    <string name="tdt_">Much grateful, then enjoyment will also increase.</string>
+    <string name="tht_">Hey There !!</string>
+</resources>

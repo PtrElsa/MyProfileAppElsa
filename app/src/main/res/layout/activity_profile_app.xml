@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    tools:context=".ProfileApp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_20dp"
+        android:text="@string/tat_"
+        android:textSize="@dimen/_50sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/chicken_quiche"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_190dp"
+        android:layout_height="@dimen/_200dp"
+        android:src="@drawable/my_pp"
+        android:layout_marginLeft="@dimen/_110dp"
+        android:layout_marginTop="@dimen/_8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tyt_"
+        android:textSize="@dimen/_34sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/chicken_quiche"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name\nNick Name\nAddress\n\nBorn\nHobby\nGraduation\nFuture Goal\nEmail"
+            android:textSize="@dimen/_25sp"
+            android:fontFamily="@font/lilac_blok"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_25sp"
+            android:text=": Putri Elsa Widiastuti\n: Elsa\n: Tlogotunggal village, Rembang\n: Rembang, 25 September 2002\n: SMA N 3 REMBANG\n: Hafidzah\n: putrielsa044@gmail.com"
+            android:fontFamily="@font/lilac_blok"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tmt_"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/chicken_quiche"
+        android:layout_marginTop="@dimen/_6dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tdt_"
+        android:textSize="@dimen/_25sp"
+        android:fontFamily="@font/lilac_blok"
+        android:gravity="center_horizontal"
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>
